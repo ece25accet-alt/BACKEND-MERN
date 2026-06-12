@@ -1,0 +1,27 @@
+var a = 10;
+
+const outer = () => {
+
+  let b = 20;
+
+  const inner = () => {
+
+    console.log(a);
+    console.log(b);
+    console.log("5" + 2);
+  };
+
+  inner();
+
+};
+
+outer();
+
+Output:
+
+10 (Global Variable)
+
+20 (Function Variable)
+
+52 (string + number concatenation)
+

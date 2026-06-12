@@ -1,0 +1,16 @@
+console.log(a);
+var a = 100;
+
+----------------------------------------------------------------------------------------------
+JavaScript executes the code in two phases: 1.Memory Creation Phase and 2.Execution Phase.
+
+Memory Creation Phase:
+Before running the code, JavaScript scans for all variables and functions.
+The variable "a" is declared with var ,so it is hoisted and memory is also allocated with the default value undefined.
+this process is common for all variables.
+
+Execution Phase:
+JavaScript starts executing the code line by line.
+as it executes "console.log(a)" at that time, there "a" exists in memory but its value is assigned as undefined, so it prints: undefined.
+
+After the line when the value "100" is assigned to the already existing memory "a" replacing the value undefined.

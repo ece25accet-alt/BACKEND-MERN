@@ -1,0 +1,10 @@
+Execution Context:
+Everything in JavaScript happens inside an Execution Context.
+
+1.When JavaScript starts running the program, it first creates a Global Execution Context.
+2.During this stage, JavaScript goes through the Memory Creation Phase,
+where it scans the code and stores the variable greet in memory along with its function definition.
+3.After memory setup is complete, JavaScript enters the Execution Phase and starts reading the code line by line.
+4.JavaScript sees that a function is being called and so it creates a Function Execution Context for greet().
+5.Once the function finishes its work, the Function Execution Context is removed from the Call Stack.
+6.Control returns back to the Global Execution Context, and after all lines of code finish executing, the program ends.

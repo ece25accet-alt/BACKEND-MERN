@@ -1,0 +1,13 @@
+console.log(username);
+let username = "Sudhan";
+--------------------------------------------------------------------------------------
+
+1.Memory Creation Phase:
+The variable username declared with let is hoisted and unlike var this is not initialized with "undefined" but it is stored in TDZ.
+TDZ stands for "Temporal Dead Zone" it starts when a value is not yet declared but being used beforehand, so it will throw the error,
+"ReferenceError".
+
+TDZ ends right after the declaration line is executed.
+
+Therefore, a ReferenceError occurs because let variables are hoisted,
+but cannot be accessed before initialing it due to the Temporal Dead Zone.

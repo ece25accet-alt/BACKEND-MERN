@@ -1,0 +1,24 @@
+1. Primitive Data-Types:
+These store a single value directly in memory and they can't be changed dirrectly instead a new value can be assigned.
+example:-
+let alphaString = "JavaScript";       // String
+let sampleNumber = 100;                // Number
+let sampleBoolean = true;              // Boolean
+let unDefined;                   // Undefined
+let sampleNull = null;                 // Null
+let sampleBigInt = 123456789012;   // BigInt
+
+
+2. Non-Primitive Data-Types:
+These store memory addresses(as references) instead of the actual values and can by this it contain multiple values.
+example:-
+let myObject = {
+    name: "Sudhan",
+    age: 20
+};
+
+let myArray = [10, 20, 30];
+
+let myFunction = () => {
+    console.log("Hello");
+};
